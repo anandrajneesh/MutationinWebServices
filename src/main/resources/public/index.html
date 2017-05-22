@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mutation in WebServices</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .smallbox{
+        width: 80px;
+        height: 75px;
+        border: 1px solid rgba(0, 0, 0, .2);
+        background: #000000;
+        float: left;
+        margin: 5px 0px 0px 25px;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <h3>Orange</h3>
+    <div id="orange" class="row">
+        <div id="orangelight" class="row">
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+        </div>
+        <div id="orangedark" class="row">
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+        </div>
+    </div>
+<h3>Green</h3>
+    <div id="green" class="row">
+
+        <div id="greenlight" class="row">
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+        </div>
+        <div id="greendark" class="row">
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+        </div>
+    </div>
+<h3>Red</h3>
+    <div id="red" class="row">
+
+        <div id="redlight" class="row">
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+        </div>
+        <div id="reddark" class="row">
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+        </div>
+    </div>
+<h3>Blue</h3>
+    <div id="blue" class="row">
+
+        <div id="bluelight" class="row">
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+        </div>
+        <div id="bluedark" class="row">
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+            <div class="cold-md-1 smallbox"></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script>
+
+    var queryAndUpdate = function(color, shade, divId){
+        return function(){
+            $.get('services/colors/'+color+'/shades?shade='+shade, function(data){
+                var children = $(divId).children();
+                for(var i = 0; i<12; i++){
+                    children[i].style.background = '#'+data[i].hex;
+                }
+            })
+        }
+    }
+
+    var randomExecute = function(fn){
+        setTimeout(function(){
+            fn();
+        }, Math.random*10000);
+    }
+    var light = 'light';
+    var dark = 'dark';
+    var colors = ['green','orange','red','blue'];
+
+    var shuffle = function (array) {
+        var currentIndex = array.length, temporaryValue, randomIndex;
+        while (0 !== currentIndex) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+        return array;
+    }
+    colors = shuffle(colors);
+    colors.forEach(function(color){
+       randomExecute(queryAndUpdate(color, light, '#'+color+light));
+       randomExecute(queryAndUpdate(color, dark, '#'+color+dark));
+    })
+
+</script>
+</body>
+</html>

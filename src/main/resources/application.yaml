@@ -1,0 +1,117 @@
+cxf:
+  jaxrs:
+    component-scan: true
+config:
+  colors:
+    - name: orange
+      light:
+       - affb01f
+       - affb833
+       - affbf47
+       - affc65c
+       - affcd70
+       - affd485
+       - affdb99
+       - affe2ad
+       - affeac2
+       - afff1d6
+       - afff8eb
+       - affffff
+      hex: ffa500
+      dark:
+       - af59f00
+       - ae09200
+       - acc8500
+       - ab87700
+       - aa36a00
+       - a8f5d00
+       - a7a5000
+       - a664200
+       - a523500
+       - a3d2800
+       - a291b00
+       - a140d00
+    - name: blue
+      light:
+       - a1f1fff
+       - a3333ff
+       - a4747ff
+       - a5c5cff
+       - a7070ff
+       - a8585ff
+       - a9999ff
+       - aadadff
+       - ac2c2ff
+       - ad6d6ff
+       - aebebff
+       - affffff
+      hex: 0000ff
+      dark:
+       - a0000f5
+       - a0000e0
+       - a0000cc
+       - a0000b8
+       - a0000a3
+       - a00008f
+       - a00007a
+       - a000066
+       - a000052
+       - a00003d
+       - a000029
+       - a000014
+    - name: green
+      light:
+       - a1fff1f
+       - a33ff33
+       - a47ff47
+       - a5cff5c
+       - a70ff70
+       - a85ff85
+       - a99ff99
+       - aadffad
+       - ac2ffc2
+       - ad6ffd6
+       - aebffeb
+       - affffff
+      hex: 0aff0a
+      dark:
+       - a00f500
+       - a00e000
+       - a00cc00
+       - a00b800
+       - a00a300
+       - a008f00
+       - a008000
+       - a006600
+       - a005200
+       - a003d00
+       - a002900
+       - a001400
+    - name: red
+      hex: ff0000
+      light:
+       - aff1f1f
+       - aff3333
+       - aff4747
+       - aff5c5c
+       - aff7070
+       - aff8585
+       - aff9999
+       - affadad
+       - affc2c2
+       - affd6d6
+       - affebeb
+       - affffff
+      dark:
+       - af50000
+       - ae00000
+       - acc0000
+       - ab80000
+       - aa30000
+       - a8f0000
+       - a7a0000
+       - a660000
+       - a520000
+       - a3d0000
+       - a290000
+       - a140000
